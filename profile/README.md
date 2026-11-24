@@ -6,7 +6,7 @@
 
 **自己每天在用的 Windows 工具 —— 做完先自己跑一遍，再放出来。**
 
-<a href="https://github.com/AhSir-GBA/fdm/releases/latest"><img src="https://img.shields.io/badge/下载_FDM-1.06-e50914?style=for-the-badge" alt="下载 FDM"></a>
+<a href="https://github.com/AhSir-GBA/fdm/releases/latest"><img src="https://img.shields.io/github/v/release/AhSir-GBA/fdm?style=flat-square&amp;label=%E4%B8%8B%E8%BD%BD%20FDM&amp;color=e50914" alt="下载 FDM"></a>
 
 </div>
 
