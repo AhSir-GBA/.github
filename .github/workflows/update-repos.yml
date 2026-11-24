@@ -1,0 +1,49 @@
+name: Refresh repository list
+
+# 每天把组织主页 README 里的「公开仓库列表」和「FDM 版本记录」重算一遍。
+# 新增仓库、发布新版本都不用再手改 README。
+on:
+  schedule:
+    - cron: "17 3 * * *" # UTC 03:17 = 北京 11:17
+  workflow_dispatch: # 也可以到 Actions 页手动 Run workflow
+  push:
+    branches: [main]
+    paths:
+      - "scripts/gen_repo_list.py"
+      - ".github/workflows/update-repos.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-repo-list
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate blocks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ORG: AhSir-GBA
+          FEATURED_REPO: fdm
+        run: python scripts/gen_repo_list.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+          else
+            git commit -m "chore(profile): 刷新公开仓库列表与版本记录"
+            git push
+          fi
