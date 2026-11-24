@@ -32,10 +32,10 @@
 
 | 版本 | 更新重点 | 安装包 |
 |---|---|---|
-| **v1.06** · 最新 | 修掉会让整类下载直接失败的引擎 bug | [FDM-Setup-0.1.21-v1.06.exe](https://github.com/AhSir-GBA/fdm/releases/download/v1.06/FDM-Setup-0.1.21-v1.06.exe) |
-| v1.05 | 代理热切换 · 连接失败给出可读提示 | [FDM-Setup-0.1.20-v1.05.exe](https://github.com/AhSir-GBA/fdm/releases/download/v1.05/FDM-Setup-0.1.20-v1.05.exe) |
-| v1.04 | 中文安装向导 · 6 套主题 · 下载提速 | [FDM-Setup-0.1.19-v1.04.exe](https://github.com/AhSir-GBA/fdm/releases/download/v1.04/FDM-Setup-0.1.19-v1.04.exe) |
-| v1.03 | 视频下载按钮不再遮挡画面 | [FDM-Setup-0.1.19-v1.03.exe](https://github.com/AhSir-GBA/fdm/releases/download/v1.03/FDM-Setup-0.1.19-v1.03.exe) |
+| **v1.07** · 最新 | 新增繁體中文介面 | [FDM-Setup-0.1.22-v1.07.exe](https://github.com/AhSir-GBA/fdm/releases/download/v1.07/FDM-Setup-0.1.22-v1.07.exe) |
+| v1.06 | 修掉「服务器不给文件大小」就失败的 bug | [FDM-Setup-0.1.21-v1.06.exe](https://github.com/AhSir-GBA/fdm/releases/download/v1.06/FDM-Setup-0.1.21-v1.06.exe) |
+| v1.05 | 改完代理不用再重启 FDM | [FDM-Setup-0.1.20-v1.05.exe](https://github.com/AhSir-GBA/fdm/releases/download/v1.05/FDM-Setup-0.1.20-v1.05.exe) |
+| v1.04 | 六套主题、中文安装向导、下载提速 | [FDM-Setup-0.1.19-v1.04.exe](https://github.com/AhSir-GBA/fdm/releases/download/v1.04/FDM-Setup-0.1.19-v1.04.exe) |
 <!-- FDM:END -->
 
 > 安装包未做代码签名，Windows 提示「未知发布者」时点 **更多信息 → 仍要运行**。
@@ -50,7 +50,7 @@
 | 仓库 | 说明 | 语言 | Star | 最近更新 |
 |---|---|---|---|---|
 | **[fdm](https://github.com/AhSir-GBA/fdm)** | FDM - 面向 Windows 的高速多线程下载管理器 · 安装包下载 | — | 0 | 2026-11-24 |
-| **[desktop-multitool](https://github.com/AhSir-GBA/desktop-multitool)** | Windows 桌面小组件工具栏：计时器 / 系统监控 / 系统信息 / 桌面动画 / 日历 / 计算器 | — | 0 | 2026-11-16 |
+| **[desktop-multitool](https://github.com/AhSir-GBA/desktop-multitool)** | Windows 桌面小组件工具栏：计时器 / 系统监控 / 系统信息 / 桌面动画 / 日历 / 计算器 | — | 0 | 2026-11-24 |
 <!-- REPOS:END -->
 
 > 表格按最近提交时间排序，**不含私有仓库**（API 只返回公开的）。
