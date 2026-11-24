@@ -16,7 +16,7 @@
 
 <img src="https://raw.githubusercontent.com/AhSir-GBA/fdm/main/docs/assets/window-main.png" width="820" alt="FDM 主窗口：18 GB 文件以 19.6 MB/s、64 条连接下载中">
 
-**18 GB 大文件 → 19.6 MB/s · 64 条并行连接 · 网页视频嗅探 · 6 套主题 · 12 种语言**
+**18 GB 大文件 → 19.6 MB/s · 64 条并行连接 · 网页视频嗅探 · 6 套主题 · 13 种语言**
 
 把文件切成多段同时抓，绕开服务器单连接限速；视频页面上直接出画质面板，点一下就开始下。
 `免广告 · 无遥测 · 不联网查版本`
