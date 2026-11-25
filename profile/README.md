@@ -49,8 +49,8 @@
 
 | 仓库 | 说明 | 语言 | Star | 最近更新 |
 |---|---|---|---|---|
-| **[fdm](https://github.com/AhSir-GBA/fdm)** | FDM - 面向 Windows 的高速多线程下载管理器 · 安装包下载 | — | 0 | 2026-11-24 |
 | **[desktop-multitool](https://github.com/AhSir-GBA/desktop-multitool)** | Windows 桌面小组件工具栏：计时器 / 系统监控 / 系统信息 / 桌面动画 / 日历 / 计算器 | — | 0 | 2026-11-24 |
+| **[fdm](https://github.com/AhSir-GBA/fdm)** | FDM - 面向 Windows 的高速多线程下载管理器 · 安装包下载 | — | 0 | 2026-11-24 |
 <!-- REPOS:END -->
 
 > 表格按最近提交时间排序，**不含私有仓库**（API 只返回公开的）。
